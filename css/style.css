@@ -1,0 +1,273 @@
+
+html,body{
+ width: 100%;
+ height: 100%;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:  'Montserrat', sans-serif;
+	margin-bottom: 1.5rem;
+	font-weight: 500;
+}
+
+/*--------------------------------------------
+*Navbar
+
+----------------------------------------------*/
+.bg-navbar{
+	background-color: #9962A4 !important;
+}
+.navbar-light .navbar-brand{
+	color: #fff;
+}
+
+.btn{
+	border-radius: 50px;
+
+
+}	
+.btn-primary{
+	background-color: #FF55C2;
+	border-color: #FF55C2;
+
+}
+
+a.btn.btn-primary:hover{
+	background-color: #FF55C2;
+	border-color: #FF55C2;
+}
+
+
+/*----------------------------------------------
+* Sections;
+----------------------------------------------*/
+
+section {
+    padding: 80px 0px;
+}
+
+#banner{
+	height: 95vh;
+    background-image: url(../img/banner-bg.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#banner-about{
+	height: 50vh;
+    background-image: url(../img/banner-bg.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.text-wrapper{
+	padding: 80px 0;
+}
+
+#banner-about .text-wrapper{
+	padding: 40px 0;
+}
+.banner-title-wrapper{
+	margin: 20px;
+}
+
+#banner .banner-title{
+	color: white;
+	font-size: 60px;
+	letter-spacing: 0.2rem;
+
+}
+
+.banner-text-wrapper{
+	margin: 10px;
+}
+#banner .banner-text{
+	color: white;
+	font-size: 27px;
+	margin: 30px;
+}
+
+#banner-about .banner-text{
+	color: white;
+	font-size: 27px;
+	margin: 20px;
+}
+
+.banner-btn-wrapper{
+	
+}
+ .btn-banner{
+	padding: 20px 30px;
+	color: #fff;
+	font-size: 1.5em;
+	background-color: #FF55C2;
+	border-radius: 50px;
+	text-decoration: none;
+}
+
+a.btn-banner:hover{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+#mission{
+	/*height: 70vh;*/
+	/*background-color: #FF55C2;*/
+
+	padding: 3rem 0;
+	margin: 3rem;
+}
+#mission h2{
+	color: #FF55C2;
+}
+
+#mission .mission-description{
+	color: #3494D0;
+	font-weight: bold;
+}
+
+#features{
+	margin-bottom: 2rem;
+	background-color: #f7f7f7;
+}
+
+#features .features-title{
+	color: #3494D0;
+}
+
+#features i{
+	font-size: 7rem;
+	padding: 2rem;
+	border-radius: 50%;
+	color: white;
+	background-color: #FF55C2;
+	border: 5px solid #3494D0;
+}
+
+#features .card-feature-description{
+	font-weight: lighter;
+}
+#modules{
+	margin-bottom: 2rem;
+}
+
+#modules h2{
+	color: #3494D0;
+
+}
+
+#modules .module-card{
+	/*position: relative;*/
+}
+
+#modules em{
+	font-size: 3.5rem;
+}
+
+.rose-text{
+	color: #FF55C2;
+}
+
+.violet-text{
+	color: #9962A4;
+}
+.bleu-text{
+	color: #3494D0;
+}
+#modules .module-card-text{
+
+}
+#modules .module-card-description{
+	font-weight: lighter;
+}
+
+#temoignages{
+
+	margin-bottom: 2rem;
+	background-color: #f7f7f7;
+}
+
+#temoignages .temoignage-card{
+	margin-bottom: 1rem;
+
+}
+
+#temoignages .temoignage-card-name{
+	/*position: absolute;*/
+	color: #FF55C2;
+	/*left: 17vw;*/
+}
+
+#temoignages .temoignage-card-pic{
+	
+	height: 150px;
+	width: 150px;
+	box-shadow: 2px 2px 2px #3494D0;
+
+}
+
+#temoignages .temoignage-card-text{
+	font-weight: lighter;
+
+}
+
+#partenaires{
+
+}
+
+#about h1,h2{
+	font-weight: bold;
+}
+
+footer{
+	height: 10vh;
+	background-color: #000;
+	color: rgb(245,245,245);
+	
+}
+
+.footer-social, .footer-links {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.footer-social a {
+  color: white;
+  /*opacity: 0.5;*/
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.footer-social a:hover{
+	opacity: 0.5;
+}
+
+.footer-links a {
+  color: white;
+  /*opacity: 0.5;*/
+  text-decoration: none;
+  /*font-size: 20px;*/
+  padding: 0px 10px;
+}
+
+.footer-copyrigth{
+	padding: 10px 0px;
+
+}
+
+.footer-copyrigth a{
+	color: #FF55C2;
+}
+
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
